@@ -14,13 +14,13 @@ const Services = () => {
             <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                  <br /> Est pariatur dolorem assumenda iure ipsum ducimus quibusdam enim vero.
             </span>
-            <button className="button s-button"></button>
+            <button className="button s-button">Download Resume</button>
             <div className="blur s-blur1" style={{background: 'ABF1FF94'}}></div>
         </div>
 
         {/* right side */}
         <div className="cards">
-
+            Right side
         </div>
     </div>
   )
