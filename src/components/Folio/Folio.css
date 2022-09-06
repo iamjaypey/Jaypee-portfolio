@@ -1,0 +1,39 @@
+.folio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+
+.folio span:nth-of-type(1){
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.folio span:nth-of-type(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* slider */
+.folio .swiper {
+    overflow: visible !important;
+}
+
+.folio-slider {
+    margin-top: 2rem;
+    width: 100%;
+} 
+
+.folio-slider .swiper-slide {
+    width: 20rem !important;
+} 
+
+.folio img {
+    width: 19rem !important;
+    filter: drop-shadow(-12px 15px 13px rgba(0,0,0, 0.25));
+    border-radius: 14px;
+}
